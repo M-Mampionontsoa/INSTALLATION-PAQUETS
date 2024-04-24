@@ -36,6 +36,7 @@ mysql 8.3.0/build/make install
 cd ~
 echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 ```
+<img src="">
 
 
 
