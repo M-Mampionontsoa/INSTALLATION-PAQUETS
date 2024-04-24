@@ -87,25 +87,31 @@ httpd-2-4-59/ sudo make
 httpd-2-4-59/sudo make install
 httpd-2-4-59/ echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 ```
-<img src="">
+<img src="https://github.com/M-Mampionontsoa/INSTALLATION-PAQUETS/blob/main/apache2.png">
 
-ETAPE D’INSTALLATION DE PHP 
-Etape 1:Télechargement du source sur github 
-php-8.2.18.tar.gz
-Etape 2:Décompression et désarchivage du fichier source
-$tar -zxvf php-8.2.18.tar.gz
-Etape 3:Installation
-$cd   php-8.2.18
-$  php-8.2.18/./configure
+##ETAPE D’INSTALLATION DE PHP  
+#Etape 1:Télechargement du source sur github  
+php-8.2.18.tar.gz  
+#Etape 2:Décompression et désarchivage du fichier source  
+```bash
+tar -zxvf php-8.2.18.tar.gz
+```
+#Etape 3:Installation  
+```bash
+cd   php-8.2.18
+  php-8.2.18/./configure
 ERROR;no such files or directory
-$php-8.2.18/ls
-$php-8.2.18/cat README .md
-$php-8.2.18/cat INSTALL
+php-8.2.18/ls
+php-8.2.18/cat README .md
+php-8.2.18/cat INSTALL
+```
 installation des dépendances :
-$httpd-2-4-59/sudo apt install -y pkg -config build -essential autoconf bison re2c
-$php-8.2.18/./buildconf
- $php-8.2.18/./configure  
-$php-8.2.18// sudo make 
-$php-8.2.18/sudo make install
-~$echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
-
+```bash
+httpd-2-4-59/sudo apt install -y pkg -config build -essential autoconf bison re2c
+php-8.2.18/./buildconf
+ php-8.2.18/./configure  
+php-8.2.18// sudo make 
+php-8.2.18/sudo make install
+echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
+```
+<img src="">
