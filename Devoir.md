@@ -114,4 +114,4 @@ php-8.2.18// sudo make
 php-8.2.18/sudo make install
 echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 ```
-<img src="">
+<img src="https://github.com/M-Mampionontsoa/INSTALLATION-PAQUETS/blob/main/php.png">
