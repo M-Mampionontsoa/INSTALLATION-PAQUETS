@@ -87,6 +87,7 @@ httpd-2-4-59/ sudo make
 httpd-2-4-59/sudo make install
 httpd-2-4-59/ echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 ```
+<img src="">
 
 ETAPE D’INSTALLATION DE PHP 
 Etape 1:Télechargement du source sur github 
