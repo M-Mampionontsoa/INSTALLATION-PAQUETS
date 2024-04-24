@@ -36,7 +36,7 @@ mysql 8.3.0/build/make install
 cd ~
 echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 ```
-<img src="">
+<img src="https://github.com/M-Mampionontsoa/INSTALLATION-PAQUETS/blob/main/mysql.png">
 
 
 
@@ -57,33 +57,36 @@ echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
 
 
 
+##ETAPE D’INSATALLATION APACHE  
+#Etape 1:Télechargement du source sur github  
 
-	ETAPE D’INSATALLATION APACHE 
-Etape 1:Télechargement du source sur github 
+httpd-2-4-59.tar.gz  
 
-httpd-2-4-59.tar.gz
-
-Etape 2:Décompression et désarchivage du fichier source
-$tar -zxvf httpd-2-4-59.tar.gz
-
-Etape 3:Installation
-$cd  httpd-2-4-59
-$httpd-2-4-59/./configure
+#Etape 2:Décompression et désarchivage du fichier source  
+```bash
+tar -zxvf httpd-2-4-59.tar.gz
+```
+#Etape 3:Installation
+```bash
+cd  httpd-2-4-59
+httpd-2-4-59/./configure
 ERROR;no such files or directory
-$httpd-2-4-59/ls
-$httpd-2-4-59/cat README 
-$httpd-2-4-59/./buildconf
+httpd-2-4-59/ls
+httpd-2-4-59/cat README 
+httpd-2-4-59/./buildconf
 ERROR:APR not found
+```
 Installation des dépendances 
 apr version
 apr-util version
-$httpd-2-4-59/./configure
+```bash
+httpd-2-4-59/./configure
 ERROR:APR could not found
-$httpd-2-4-59/ ./configure  --with-apr=/usr/local/apr/bin
-$httpd-2-4-59/ sudo make 
-$httpd-2-4-59/sudo make install
-$httpd-2-4-59/ echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
-
+httpd-2-4-59/ ./configure  --with-apr=/usr/local/apr/bin
+httpd-2-4-59/ sudo make 
+httpd-2-4-59/sudo make install
+httpd-2-4-59/ echo ‘export PATH=$PATH /usr /local/bin’ >>.bashrc
+```
 
 ETAPE D’INSTALLATION DE PHP 
 Etape 1:Télechargement du source sur github 
